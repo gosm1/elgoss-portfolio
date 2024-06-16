@@ -5,7 +5,7 @@ const Experience = () => {
     return (
         <main className="relative  flex flex-col justify-center overflow-hidden">
             <div className="w-full max-w-6xl mx-auto px-4 md:px-6 pb-44">
-            <h1 className='text-3xl font-bold text-center mb-14'>My <span className='text-purple'>Skills</span></h1>
+            <h1 className='text-3xl font-bold text-center mb-14'>My <span className='text-purple'>Experiences</span></h1>
                 <div className="w-full max-w-3xl mx-auto">
                     
                     {/* Vertical Timeline */}
