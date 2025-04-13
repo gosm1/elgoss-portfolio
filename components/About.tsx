@@ -58,7 +58,7 @@ const About = () => {
           ref={textRef}
           className="text-2xl md:text-3xl font-medium leading-relaxed max-w-5xl mx-auto"
         >
-          I'm Elgoss Mouhcine, a 4th year engineering student at EMSI Casablanca and a software developer passionate about building intuitive and efficient web applications. With a strong foundation in both front-end and back-end technologies, I've developed projects like a financial dashboard, an AI-powered gig generator, and a luxury car rental platform. I'm always learning, adapting, and looking to create impactful digital experiences.
+          I&apos;m Elgoss Mouhcine, a 4th year engineering student at EMSI Casablanca and a software developer passionate about building intuitive and efficient web applications. With a strong foundation in both front-end and back-end technologies, I&apos;ve developed projects like a financial dashboard, an AI-powered gig generator, and a luxury car rental platform. I&apos;m always learning, adapting, and looking to create impactful digital experiences.
         </div>
       </div>
     </section>
