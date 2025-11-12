@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { FaSass, FaGithub, FaAws, FaMicrosoft } from 'react-icons/fa';
 import {
@@ -16,7 +15,6 @@ import {
   SiHtml5,
   SiJavascript,
   SiNextdotjs,
-  SiShopify,
   SiTypescript,
   SiPython,
   SiPhp,
@@ -37,16 +35,16 @@ import {
   SiSpring,
   SiTrello,
   SiJira,
-  SiAdobephotoshop
+  SiAdobephotoshop,
+  SiTensorflow,
+  SiScikitlearn,
+  SiNumpy
 } from 'react-icons/si';
 import { 
   ShieldCheckIcon, 
   LockClosedIcon, 
   ArrowPathIcon 
 } from '@heroicons/react/24/outline';
-
-
-// Custom NeonDB SVG (replace with official SVG if available)
 
 
 const skillCategories = [
@@ -83,15 +81,25 @@ const skillCategories = [
     ]
   },
   {
+    title: 'AI / Machine Learning Libraries',
+    skills: [
+      { name: 'NumPy', icon: <SiNumpy />, tooltip: 'NumPy' },
+      { name: 'scikit-learn', icon: <SiScikitlearn />, tooltip: 'scikit-learn' },
+      { name: 'TensorFlow', icon: <SiTensorflow />, tooltip: 'TensorFlow' },
+      { name: 'LangChain', icon: '', tooltip: 'LangChain' },
+      { name: 'Ollama', icon: '', tooltip: 'Ollama' },
+      { name: 'Modal', icon: '', tooltip: 'Modal' }
+    ]
+  },
+  {
     title: 'Databases',
     skills: [
-      { name: 'MongoDB', icon: <SiMongodb />, tooltip: 'MongoDB' },
       { name: 'PostgreSQL', icon: <SiPostgresql />, tooltip: 'PostgreSQL' },
       { name: 'MySQL', icon: <SiMysql />, tooltip: 'MySQL' },
       { name: 'SQLite', icon: <SiSqlite />, tooltip: 'SQLite' },
       { name: 'Firebase', icon: <SiFirebase />, tooltip: 'Firebase' },
-      { name: 'NeonDB', icon: "", tooltip: 'NeonDB' },
-      { name: 'SQL Server', icon: "", tooltip: 'SQL Server' }
+      { name: 'Pinecone', icon: '', tooltip: 'Pinecone' },
+      { name: 'Chroma', icon: '', tooltip: 'Chroma' }
     ]
   },
   {
@@ -119,6 +127,9 @@ const skillCategories = [
     ]
   },
 ];
+
+
+
 
 const SkillsSection = () => {
   return (

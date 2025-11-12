@@ -54,12 +54,13 @@ const About = () => {
           About Me
         </h2>
         
-        <div 
-          ref={textRef}
-          className="text-2xl md:text-3xl font-medium leading-relaxed max-w-5xl mx-auto"
-        >
-          I&apos;m Elgoss Mouhcine, a 4th year engineering student at EMSI Casablanca and a software developer passionate about building intuitive and efficient web applications. With a strong foundation in both front-end and back-end technologies, I&apos;ve developed projects like a financial dashboard, an AI-powered gig generator, and a luxury car rental platform. I&apos;m always learning, adapting, and looking to create impactful digital experiences.
-        </div>
+        <div
+  ref={textRef}
+  className="text-2xl md:text-3xl font-medium leading-relaxed max-w-5xl mx-auto"
+>
+  {`I'm Elgoss Mouhcine, a future Engineering student in Computer Science and Artificial Intelligence at EMSI. I am passionate about developing and deploying intelligent systems at scale, with practical experience in deep learning and deep learning, RAG, and full-stack development. I have created AI applications (like an AI technical interview simulator) used by over 200 active users, and implemented automations that reduced manual work by 80%. Certified by IBM, Meta, and Microsoft, I am constantly seeking new challenges to build impactful digital solutions.`}
+</div>
+
       </div>
     </section>
   )
